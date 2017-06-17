@@ -19,7 +19,7 @@ public class GoogleTest {
 		wd.get("https://www.flipkart.com/?semcmpid=sem_8024046704_brand_goog&tgi=sem,1,G,8024046704,g,search,,112753719400,1t1,e,flipkart,c,,,,,,,&gclid=CPyx6tDVltMCFckPaAodMZ4Mfw");
 		File src = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File("D:\\Automation\\Sample-Test\\Eclipsescreenshot\\googletest.jpg"));
-		
+		wd.quit();
 		
 		
 	}
